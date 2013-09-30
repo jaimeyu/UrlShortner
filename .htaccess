@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^url/([^/\.]+)/?$ index.php?u=$1 [L]
